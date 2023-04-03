@@ -3,7 +3,7 @@
 
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
-<link rel=" preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel=" preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
     <title>WARKIPEDIA</title>
 
@@ -14,15 +14,18 @@
         linear-gradient(
         #442304ab, #61370a, #857324, #dfdc4b
         );
+         }
+        .bg-image
+        {
+            background-image: url("img/bg-img.jpg")  
         }
-
-        #img_bg {
+        .img_bg {
             position: absolute;
             bottom: 825px;
             width: 100%;
         }
 
-        #warkipedia {
+        .warkipedia {
             font-family: 'Bungee Shade', cursive;
             font-size: 1750%;
             text-align: center;
@@ -31,7 +34,7 @@
             color: black;
         }
 
-        #tank {
+        .tank {
             position: relative;
             left: 400px;
             bottom: 650px;
@@ -41,21 +44,21 @@
             opacity: 0.8;
         }
 
-        #table_line {
+        .table_line {
             width: 100%;
             position: relative;
             bottom: 780px;
         }
 
-        #tr_line {
+        .tr_line {
             background-color: #D3D3D3;
             border-top: 2px solid white;
             border-bottom: 2px solid white;
         }
 
-        #th_line {}
+        .th_line {}
 
-        #citat {
+        .citat {
             font-size: 58%;
             font-family: verdana;
             text-align: center;
@@ -65,13 +68,16 @@
 </head>
 
 <body bgcolor="#ffffff">
-    <img id="img_bg" src="" />
-    <h3 id="warkipedia"> WARKIPEDIA </h3>
+    <div class="bg-image">
+        
+    </div>
+    <img class="img_bg" src="" />
+    <h3 class="warkipedia"> WARKIPEDIA </h3>
 
-    <table id="table_line">
-        <tr id="tr_line">
-            <th id="th_line">
-                <p id="citat">„Войната не може да се нарече истински подвиг. Това е само илюзия за постижение. Всъщност
+    <table class="table_line">
+        <tr class="tr_line">
+            <th class="th_line">
+                <p class="citat">„Войната не може да се нарече истински подвиг. Това е само илюзия за постижение. Всъщност
                     в основата на всяко велико дело лежи богатството от връзки, които то носи. Но обикновена игра на
                     глави и опашки няма да направи това, дори ако цената за загуба е живот или смърт. Следователно
                     войната не е героично дело, тя е само злокачествена болест, като тиф” - (Сент-Екзюпери).</p>
@@ -80,7 +86,7 @@
     </table>
 
     <a href="./2page.html">
-        <img id="tank" src="./img/tank_ground.png">
+        <img class="tank" src="./img/tank_ground.png">
     </a>
 
 </body>
