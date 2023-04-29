@@ -190,12 +190,12 @@ ul {
 .hero {
   display: flex;
   justify-content: space-evenly;
-  height: 60%;
+  height: 70%;
   align-items: center;
 }
 
 .header {
-  height: 20%;
+  height: 10%;
 }
 
 .air-button:hover {
@@ -208,18 +208,53 @@ ul {
 
 .content {
   display: flex;
-  height: 60%;
+  height: 70%;
 }
-.nation{
+
+.nation {
   height: 10vw;
   width: 15vw;
+  transition: 1s;
 }
-.images{
+
+.images {
   height: 10vw;
   width: 20vw;
+  border-radius: 2rem;
+  transition: 1s;
 }
-.first-row{
+
+.first-row {
   display: flex;
   justify-content: space-evenly;
-   
+  width: 100%;
+  height: 20%;
+}
+
+.images:hover {
+  transform: scale(1.05);
+
+}
+
+.nation:hover {
+  border-radius: 1rem;
+  transform: scale(1.05);
+}
+.second-row{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 20%;
+  margin-top: 11%;
+  position: absolute;
+  left: 0;
+}
+.third-row{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 20%;
+  margin-top: 22%;
+  position: absolute;
+  left: 0;
 }
