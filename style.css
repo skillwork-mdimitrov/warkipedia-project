@@ -1,4 +1,10 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background-image {
   background-image: url('bg-img.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -6,6 +12,20 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+}
+
+.background-color {
+  background-color: #0A4D68;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.warkipedia {
+  text-align: center;
+  font-size: 4rem;
+  text-decoration: none;
+  margin-top: 10px;
 }
 
 nav {
@@ -52,19 +72,6 @@ a:active {
   text-decoration: none;
 }
 
-.warkipedia {
-  text-align: center;
-  font-size: 4rem;
-  text-decoration: none;
-  margin-top: 10px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .container {
   max-width: 1170px;
   margin: auto;
@@ -92,7 +99,7 @@ ul {
 }
 
 .footer-col h4 {
-  font-size: 18px;
+  font-size: 1.5rem;
   color: #ffffff;
   text-transform: capitalize;
   margin-bottom: 35px;
@@ -159,12 +166,14 @@ ul {
   width: 25vw;
   height: 30vh;
   border-radius: 12px;
+  transition: 1.2s;
 }
 
 .ground-button {
   width: 25vw;
   height: 30vh;
   border-radius: 12px;
+  transition: 1.2s;
 }
 
 .best-vehicle {
@@ -177,11 +186,40 @@ ul {
   position: relative;
   left: -19vw;
 }
+
 .hero {
   display: flex;
   justify-content: space-evenly;
   height: 60%;
+  align-items: center;
 }
+
 .header {
   height: 20%;
+}
+
+.air-button:hover {
+  transform: scale(1.1);
+}
+
+.ground-button:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  display: flex;
+  height: 60%;
+}
+.nation{
+  height: 10vw;
+  width: 15vw;
+}
+.images{
+  height: 10vw;
+  width: 20vw;
+}
+.first-row{
+  display: flex;
+  justify-content: space-evenly;
+   
 }
