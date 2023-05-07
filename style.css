@@ -20,7 +20,6 @@
   display: grid;
   grid-template-rows: 1fr 15fr 1.5fr;
 }
-
 .header {
   width: 100%;
   height: 100%;
@@ -51,7 +50,6 @@
   background-color: #ddd;
   color: black;
 }
-
 .warkipedia {
   text-align: center;
   font-size: 4rem;
@@ -107,17 +105,6 @@ ul {
   height: 30vh;
   border-radius: 12px;
   transition: 1.2s;
-}
-
-.best-vehicle {
-  width: 30vw;
-  height: 30vh;
-  border-radius: 20px;
-}
-
-.vehicle-description {
-  position: relative;
-  left: -19vw;
 }
 
 .hero {
