@@ -74,6 +74,9 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+a{
+  color: #FEFF86;
+}
 
 .container {
   max-width: 1170px;
@@ -263,4 +266,17 @@ ul {
   opacity: 1;
   transform: scale(1.05);
   transition: 1s;
+}
+.description{
+  align-items: center;
+  text-align: center;
+}
+.first-column{
+  flex-direction: column;
+}
+.second-column{
+  flex-direction: column;
+}
+.third-column{
+  flex-direction: column;
 }
