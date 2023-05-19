@@ -74,7 +74,8 @@ a:hover {
 a:active {
   text-decoration: none;
 }
-a{
+
+a {
   color: #FEFF86;
 }
 
@@ -238,7 +239,8 @@ ul {
 
 .overlay {
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.4); /* semi-opaque black */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* semi-opaque black */
   border-radius: 2rem;
   color: white;
   display: flex;
@@ -267,16 +269,51 @@ ul {
   transform: scale(1.05);
   transition: 1s;
 }
-.description{
+
+.description {
   align-items: center;
   text-align: center;
 }
-.first-column{
+
+.first-column {
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.second-column {
   flex-direction: column;
 }
-.second-column{
+
+.third-column {
   flex-direction: column;
 }
-.third-column{
-  flex-direction: column;
+
+.description-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text-box {
+  width: 20vw;
+  height: 40vh;
+  border: 0.01rem solid black;
+  border-radius: 1rem;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  background-color: #394867;
+  align-items: center;
+}
+
+.text-box p {
+  margin: 0;
+}
+
+.description-images {
+  height: 10vw;
+  width: 22vw;
+  border-radius: 2rem;
+  transition: 1s;
 }
