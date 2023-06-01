@@ -61,4 +61,83 @@
   ul {
     list-style: none;
   }
-    
+
+  /*Content button*/
+
+  .dropbtn {
+    background-color: #09682d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .Content {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .Content:hover .dropdown-content {display: block;}
+  
+  .Content:hover .dropbtn {background-color: #3e8e41;}
+
+  /*Home button*/
+
+  .Home {
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    border: none;
+  }
+
+  .Home {
+    background-color: #09682d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .Home:hover{display: block;}
+
+.Home:hover{background-color: #3e8e41;}
+
+/*About us*/
+
+.About {
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  border: none;
+}
+
+.About {
+  background-color: #09682d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.About:hover{display: block;}
+
+.About:hover{background-color: #3e8e41;}
+
