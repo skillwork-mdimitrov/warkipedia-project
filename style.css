@@ -56,6 +56,7 @@
 
 .air-button:hover {
   transform: scale(1.1);
+  border: 12px;
 }
 
 .ground-button:hover {
@@ -108,7 +109,6 @@
 .overlay {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
-  /* semi-opaque black */
   border-radius: 2rem;
   color: white;
   display: flex;
