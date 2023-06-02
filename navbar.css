@@ -62,8 +62,7 @@
     list-style: none;
   }
 
-  /*Content button*/
-
+  
   .dropbtn {
     background-color: #09682d;
     color: white;
@@ -99,7 +98,7 @@
 
   .Content:hover .dropbtn {background-color: #3e8e41;}
 
-  /*Home button*/
+ 
 
   .Home {
     color: white;
@@ -120,7 +119,6 @@
 
 .Home:hover{background-color: #3e8e41;}
 
-/*About us*/
 
 .About {
   color: white;
